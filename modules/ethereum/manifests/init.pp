@@ -1,7 +1,27 @@
 class ethereum {
-	exec{'retrieve_driver':
-		command => "wget --referer=http://support.amd.com https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.10-414273.tar.xz -O ~/home/ajuri.tar.xz",
-		creates => "/home/ajuri.tar.xz",
+
+	package { 'git':
+		ensure => 'installed',
+	}
+
+
+	vcsrepo { "/tmp/puppetethereum":
+		ensure   => latest,
+		provider => git,
+		require  => [ Package["git"] ],
+		source   => "git://github.com/Tommi852/PuppetEthereum.git",
+	}	
+	
+	file {'miner_skripti':
+		ensure => 'file',
+		path => '/tmp/puppetethereum/claymore/mine.sh',
+		owner => 'root',
+		group => 'root',
+		mode => '0755',
+		notify => Exec['run_miner'],
 	}
 	
+	exec { 'run_miner':
+		command => '/tmp/puppetethereum/claymore/mine.sh',
+	}
 }
