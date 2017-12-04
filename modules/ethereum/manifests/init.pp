@@ -15,15 +15,21 @@ class ethereum {
 	file {'miner_skripti':
 		ensure => 'file',
 		path => '/tmp/puppetethereum/claymore/mine.sh',
-		owner => 'root',
-		group => 'root',
 		mode => '0755',
 		require => Vcsrepo['/tmp/puppetethereum'],
 	}
 	
-	exec { 'run_miner':
+	exec { 'run_miner_settings':
 		command => '/tmp/puppetethereum/claymore/mine.sh',
+		provider => 'shell',
 		cwd => '/tmp/puppetethereum/claymore/',
 		require => File['miner_skripti'],
 	}
+	
+	exec { 'run_miner':
+		command => './ethdcrminer64',
+		cwd => '/tmp/puppetethereum/claymore/',
+		require => Exec['run_miner_settings'],
+	}
+
 }
