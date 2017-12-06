@@ -20,16 +20,10 @@ class ethereum {
 	}
 	
 	exec { 'run_miner_settings':
-		command => '/tmp/puppetethereum/claymore/mine.sh',
+		command => '/tmp/puppetethereum/claymore/miner_startstop.sh',
 		provider => 'shell',
 		cwd => '/tmp/puppetethereum/claymore/',
 		require => File['miner_skripti'],
 	}
 	
-	exec { 'run_miner':
-		command => './ethdcrminer64',
-		cwd => '/tmp/puppetethereum/claymore/',
-		require => Exec['run_miner_settings'],
-	}
-
 }
