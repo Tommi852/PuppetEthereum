@@ -27,7 +27,7 @@ class ethereum {
 	}
 	
         exec { 'driver_install':
-                command => '/tmp/puppetethereum/nvidiadriver',
+                command => '/tmp/puppetethereum/nvidiadriver.sh',
                 provider => 'shell',
 		user => root,
                 cwd => '/tmp/puppetethereum/',
