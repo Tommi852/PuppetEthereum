@@ -1,6 +1,6 @@
 # WARNING! Remove "#" characters to enable lines, with "#" they are disabled and will be ignored by miner! Check README for details.
 -epool eu1.ethermine.org:4444
--ewal 0xd458dc7cF5412ae171905572E09c7eEe87e1f6DA.orja1
+-ewal 0xd458dc7cF5412ae171905572E09c7eEe87e1f6DA.demokone
 -epsw x
 -mode 1
 -tt 68
