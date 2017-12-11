@@ -1,0 +1,101 @@
+19:42:08:987	3136740	args: -epool eu1.ethermine.org:4444 -ewal 0xd458dc7cF5412ae171905572E09c7eEe87e1f6DA.demokone -epsw x -mode 1 -tt 68 -allpools 1 
+19:42:08:987	3136740	
+19:42:08:987	3136740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:42:08:987	3136740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+19:42:08:987	3136740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:42:08:987	3136740	
+19:42:09:188	3136740	This pool (eth-eu2.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	This pool (eth-eu2.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	Pool eth-eu2.nanopool.org removed from the list
+19:42:09:188	3136740	This pool (eth-us-east1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	This pool (eth-us-east1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	Pool eth-us-east1.nanopool.org removed from the list
+19:42:09:188	3136740	This pool (eth-us-west1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	This pool (eth-us-west1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	Pool eth-us-west1.nanopool.org removed from the list
+19:42:09:188	3136740	This pool (eth-asia1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	This pool (eth-asia1.nanopool.org) does not support Ethereum addresses as login (or requires worker name in "Login.Worker" format) and cannot be used for devfee mining, therefore it is not supported.
+19:42:09:188	3136740	However, you can mine on this pool if you specify "-allpools 1" option, default pools (different from this pool) will be used for devfee.
+19:42:09:188	3136740	Please read "Readme" file for details
+19:42:09:188	3136740	Pool eth-asia1.nanopool.org removed from the list
+19:42:09:188	3136740	ETH: 1 pool is specified
+19:42:09:188	3136740	Main Ethereum pool is eu1.ethermine.org:4444
+19:42:09:406	3136740	OpenCL platform: NVIDIA CUDA
+19:42:09:406	3136740	AMD OpenCL platform not found 
+19:42:09:474	3136740	CUDA initializing...
+
+19:42:09:474	3136740	NVIDIA Cards available: 1 
+19:42:09:479	3136740	CUDA Driver Version/Runtime Version: 9.0/8.0
+19:42:09:480	3136740	GPU #0: GeForce GTX 980 Ti, 6075 MB available, 22 compute units, capability: 5.2
+
+19:42:09:480	3136740	Total cards: 1 
+19:42:18:932	3136740	No AMD cards in the list, ADL library will not be used.
+19:42:18:936	3136740	NVML version: 9.384.90
+19:42:19:096	f2ffd700	ETH: Stratum - connecting to 'eu1.ethermine.org' <188.165.220.188> port 4444
+19:42:19:139	f2ffd700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xd458dc7cF5412ae171905572E09c7eEe87e1f6DA.demokone", "x"], "id": 2, "method": "eth_submitLogin"}
+
+19:42:19:139	f2ffd700	ETH: Stratum - Connected (eu1.ethermine.org:4444)
+19:42:19:189	f2ffd700	got 39 bytes
+19:42:19:189	f2ffd700	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+19:42:19:189	f2ffd700	parse packet: 38
+19:42:19:189	f2ffd700	ETH: Authorized
+19:42:19:189	f2ffd700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:42:19:190	f2ffd700	new buf size: 0
+19:42:19:193	3136740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+19:42:19:193	3136740	ETH: eth-proxy stratum mode
+19:42:19:193	3136740	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+19:42:19:193	3136740	Watchdog enabled
+19:42:19:193	3136740	Remote management (READ-ONLY MODE) is enabled on port 3333
+19:42:19:193	3136740	
+19:42:19:240	f2ffd700	got 248 bytes
+19:42:19:240	f2ffd700	buf: {"id":3,"jsonrpc":"2.0","result":["0x12963965e60b58e04377507654df76514693392a50100ee676da7dae64c47a89","0xc5f7a893e7fb670ce12bfe6ae0892bea15e5a43f1f03f29a788c31b49f76bd53","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x47f356"]}
+
+19:42:19:240	f2ffd700	parse packet: 247
+19:42:19:240	f2ffd700	ETH: job changed
+19:42:19:240	f2ffd700	new buf size: 0
+19:42:19:296	f37fe700	Setting DAG epoch #157...
+19:42:20:959	f37fe700	Setting DAG epoch #157 for GPU0
+19:42:20:959	f37fe700	Create GPU buffer for GPU0
+19:42:27:179	f37fe700	GPU0 DAG creation time - 6211 ms
+19:42:27:179	f37fe700	Setting DAG epoch #157 for GPU0 done
+19:42:29:241	f2ffd700	ETH: checking pool connection...
+19:42:29:241	f2ffd700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:42:29:285	f2ffd700	got 248 bytes
+19:42:29:285	f2ffd700	buf: {"id":3,"jsonrpc":"2.0","result":["0x12963965e60b58e04377507654df76514693392a50100ee676da7dae64c47a89","0xc5f7a893e7fb670ce12bfe6ae0892bea15e5a43f1f03f29a788c31b49f76bd53","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x47f356"]}
+
+19:42:29:285	f2ffd700	parse packet: 247
+19:42:29:285	f2ffd700	ETH: job is the same
+19:42:29:285	f2ffd700	new buf size: 0
+19:42:39:242	f2ffd700	ETH: checking pool connection...
+19:42:39:242	f2ffd700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:42:39:242	f2ffd700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xbd2e70", "0x000000000000000000000000000000000000000000000000000000001802e667"]}
+
+19:42:39:285	f2ffd700	got 248 bytes
+19:42:39:285	f2ffd700	buf: {"id":3,"jsonrpc":"2.0","result":["0x12963965e60b58e04377507654df76514693392a50100ee676da7dae64c47a89","0xc5f7a893e7fb670ce12bfe6ae0892bea15e5a43f1f03f29a788c31b49f76bd53","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x47f356"]}
+
+19:42:39:285	f2ffd700	parse packet: 247
+19:42:39:285	f2ffd700	ETH: job is the same
+19:42:39:285	f2ffd700	new buf size: 0
+19:42:39:327	f2ffd700	got 39 bytes
+19:42:39:327	f2ffd700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:42:39:327	f2ffd700	parse packet: 38
+19:42:39:327	f2ffd700	new buf size: 0
