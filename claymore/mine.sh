@@ -1,5 +1,4 @@
 #!/bin/sh
-sudo chmod u+s ethdcrminer64
 export GPU_FORCE_64BIT_PTR=0
 
 export GPU_MAX_HEAP_SIZE=100

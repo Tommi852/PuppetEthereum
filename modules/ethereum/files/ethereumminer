@@ -9,11 +9,11 @@
 # Description:       Claymore ethereum miner service.
 ### END INIT INFO
 
-dir="/tmp/PuppetEthereum/claymore/"
+dir="/tmp/puppetethereum/claymore/"
 cmd="./ethdcrminer64"
 user="root"
 
-name=`basename $0`
+name=`ethereumminer`
 pid_file="/var/run/$name.pid"
 stdout_log="/var/log/$name.log"
 stderr_log="/var/log/$name.err"

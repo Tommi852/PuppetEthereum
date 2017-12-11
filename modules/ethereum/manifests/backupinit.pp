@@ -36,10 +36,7 @@ class ethereum {
         }
 
         file {'/etc/init.d/ethereumminer':
-		ensure => 'present',
-		owner => 'root',
-		group => 'root',
-                source => 'puppet:///modules/ethereum/ethereumminer',
+                ensure => 'puppet:///modules/ethereum/ethereumminer',
 		mode => '755',
                 require => Exec['driver_install'],
         }
