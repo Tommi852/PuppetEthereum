@@ -101,6 +101,10 @@ Tässä vaiheessa luodaan kohde koneelle init skripti, jolla mineriä voidaan oh
 Miner oli pakko muuttaa serviceksi, sillä se pyörii normaalisti bash scriptin kautta ja puppet ei osannut ottaa exit koodia bashista, joka ei koskaan lopeta pyörimistä.
 Tällä myös varmistetaan, ettei miner pyöri useampaan otteeseen, vaan puppet osaa varmistaa, että palvelu on päällä.
 
+Init skriptissä käytin pohjana ssh:n init skriptiä, jota muokkasin omiin tarkoituksiini.
+Init skripti on sen verran iso, että en sitä tähän liitä, mutta sitä voi käydä ihailemassa täältä: https://github.com/Tommi852/PuppetEthereum/blob/master/modules/ethereum/files/ethereumminer
+
+
 ```
         exec { 'reload_daemons':
                 command => '/bin/systemctl daemon-reload',
