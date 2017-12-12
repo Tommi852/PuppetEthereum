@@ -13,6 +13,8 @@ Vcsrepo on valmis moduuli puppettiin, joka osaa hakea ja ylläpitää git projek
 
 Ketjutin skriptin vaiheet käyttämällä jokaisessa kohdassa requirea.
 
+Linkki moduuliin kokonaisuudessaan: https://github.com/Tommi852/PuppetEthereum/blob/master/modules/ethereum/manifests/init.pp
+
 ### Käydään moduulin scripti vaiheittain
 
 ```
