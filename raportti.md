@@ -80,6 +80,8 @@ Tässä vaiheessa pyöräytetään skripti, joka lataa ja asentaa kaikki minerin
 Tämä skripti olisi tarkoitus siirtää puppetin hoidettavaksi, mutta ajan puutteen vuoksi jouduin suorittamaan sen execillä.
 Resurssiin oli myös lisättävä returns => [0,126], sillä ensimmäisellä pyöräytys kerralla skripti palauttaa lopetus koodi nollan, mutta myöhemmillä kerroilla se antaa puppetille tuntemattoman exit coden 126, joka piti erikseen hyväksyä.
 
+Nvidiadriver.sh sisältö löytyy täältä: https://github.com/Tommi852/PuppetEthereum/blob/master/nvidiadriver.sh 
+
 ```
         file {'/etc/init.d/ethereumminer':
 		ensure => 'present',
